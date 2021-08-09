@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.pagecontainer{
+  position: relative;
+}
+.DreamCommunity{
+  position: absolute;
+  right: 9.9vw;
+  width: 100%;
+}
+.wrapper{
+  position: absolute;
+  top:20px;
+
+}

@@ -1,0 +1,10 @@
+#logo{
+    height: 37px;
+    width:140px;
+    margin-left: 15px;
+}
+.header-logo{
+    background-color:#f0f1f6;
+    box-shadow: 2px 2px 2px rgba(136, 136, 136, 0.377);
+    width: 114%;
+}

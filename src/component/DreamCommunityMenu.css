@@ -1,0 +1,48 @@
+*,
+*:before,
+*:after{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+.DreamCommunityMenu-Container nav{
+height:20vh;
+width:10vw;
+min-width: 1080px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+margin: 10px;
+}
+
+a{
+  position: relative;
+  bottom: 35%;
+  right: 3%;
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  padding: 0 10px;
+}
+
+a:after{
+  content: '';
+  position: absolute;
+  background-color: #A11CF9;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: all 0.3s linear 0s;
+}
+
+a:hover{
+  color: #A11CF9;
+}
+a:hover:after{
+width: 100%;
+}
+
+

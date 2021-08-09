@@ -1,0 +1,24 @@
+.form-input-btn{
+  border-radius: 10px;
+  height:50px;
+  width: 150px;
+  margin-left: 70px; 
+  border-color: #A11CF9;
+  color: #A11CF9;
+  background-color: white;
+}
+
+.form-input-btn:hover{
+  color: white;
+  background-image:linear-gradient(to right, #A11CF9,#7201C8);
+}
+
+#outlined-adornment {
+  color: black;
+  padding-left: 18px;
+  margin-top: -1px;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.5px;
+  font-size: .8rem;
+  font-weight: 600;
+}

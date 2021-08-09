@@ -1,0 +1,21 @@
+.Sidebar-containter{
+    background-image:linear-gradient(to right, #A11CF9,#7201C8);
+    height: auto;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.MuiSvgIcon-root{
+    display: flex;
+    margin-top: 11vh;
+    margin-left: 2.5vw;
+    color:#ffff;
+    margin-right: auto;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
